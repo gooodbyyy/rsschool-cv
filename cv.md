@@ -41,6 +41,9 @@ Accurately and quickly convert your PSD, XD, AI, Zeplin, Sketch, PNG or JPG  fil
 12.	Integrate custom fonts<br>
 13.	W3C validated
 <br><br>
+<b>I speak fluent Ukrainian, Russian, a little English(C2)</b><br> 
+https://www.efset.org/cert/GjvU6a
+<br><br>
 
 
 
