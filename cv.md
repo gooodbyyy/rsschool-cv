@@ -25,5 +25,22 @@ Accurately and quickly convert your PSD, XD, AI, Zeplin, Sketch, PNG or JPG  fil
 12.	Integrate custom fonts<br>
 13.	W3C validated
 <br><br>
+<b>Following are some of my core skills</b>
+<br><br>
+1.	HTML5<br>
+2.	CSS3<br>
+3.	Bootstrap<br>
+4.	Flex, Greed<br>
+5.	Materialize<br>
+6.	SCSS<br>
+7.	JS<br>
+8.	Responsive template<br>
+9.	Cross-browser compatibility<br>
+10.	Pixel perfect design<br>
+11.	Clean code<br>
+12.	Integrate custom fonts<br>
+13.	W3C validated
+<br><br>
+
 
 
