@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
 </head>
 
 <body>
@@ -170,6 +175,123 @@
 
             <div class="container">
 
+                <!--NAVIGATION-->
+                <nav class="navigation">
+
+                    <ul>
+                        <li>
+                            <a class="navigation__link subtitle__font" href="#skills">
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span> Skills
+                            </a>
+                        </li>
+                        <li>
+                            <a class="navigation__link subtitle__font" href="#education">
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>Education
+                            </a>
+                        </li>
+                        <li>
+                            <a class="navigation__link subtitle__font" href="#code">
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>Code Exemples
+                            </a>
+                        </li>
+                        <li>
+                            <a class="navigation__link subtitle__font" href="#websites">
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>Website Templates
+                            </a>
+                        </li>
+                        <li>
+                            <a class="navigation__link subtitle__font" href="#projects">
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>JS Projects
+                            </a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <!--Navigation for screens smaller than 1050px-->
+                <nav class="navigation-small">
+
+                    <ul>
+                        <li>
+                            <a class="navigation__link subtitle__font" href="#skills">
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>Skills
+                            </a>
+                        </li>
+                        <li>
+                            <a class="navigation__link subtitle__font" href="#education">
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>Education
+                            </a>
+                        </li>
+                        <li>
+                            <a class="navigation__link subtitle__font" href="#code">
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>Code Exemples
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <a class="navigation__link subtitle__font" href="#websites">
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>Website Templates
+                            </a>
+                        </li>
+                        <li>
+                            <a class="navigation__link subtitle__font" href="#projects">
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>
+                                <span class="animated"></span>JS Projects
+                            </a>
+                        </li>
+                    </ul>
+
+                </nav>
+
+                <!--Menu Hamburger start-->
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="#skills">Skills</a></li>
+                        <li><a class="menu__item" href="#education">Education</a></li>
+                        <li><a class="menu__item" href="#code">Code Exemples</a></li>
+                        <li><a class="menu__item" href="#websites">Website Templates</a></li>
+                        <li><a class="menu__item" href="#projects">JS Projects</a></li>
+                    </ul>
+                </div>
+                <!--Menu Hamburger end-->
+
+
                 <!--TITLE-->
                 <header class="name">
                     <h1 class="name__font">Hennadii Apopii</h1>
@@ -180,7 +302,7 @@
 
                 <!--CORE SKILLS-->
 
-                <div class="title">
+                <div class="title" id="skills">
                     <span class="title__font white">Skills</span>
                 </div>
 
@@ -538,7 +660,7 @@
                 </div>
                 <!--EDUCATION-->
 
-                <div class="title">
+                <div class="title" id="education">
                     <span class="title__font white">Education</span>
                 </div>
 
@@ -563,7 +685,7 @@
 
                 <!--CODE EXEMPLES-->
 
-                <div class="title">
+                <div class="title" id="code">
                     <span class="title__font white">Code Exemples</span>
                 </div>
 
@@ -573,12 +695,12 @@
                         &lt; n &lt; 1000000) which is the difference between two consecutive perfect squares, and return these squares as a string in the format “bigger-smaller” <br>
                             For Example 9 –> “25-16” 5 –> “9-4” 7 –> “16-9”</p>
                     <p class="content__font"><b>Solving</b></p>
-                    <code>const findSquares = num => `${Math.pow(Math.ceil(num/2),2)} - ${Math.pow(Math.floor(num/2),2)}`;</code>
+                    <pre><code>const findSquares = num => `${Math.pow(Math.ceil(num/2),2)} - ${Math.pow(Math.floor(num/2),2)}`;</code></pre>
                 </div>
 
                 <!--WEBSITE TEMPLATES-->
 
-                <div class="title">
+                <div class="title" id="websites">
                     <span class="title__font white">Website Templates</span>
                 </div>
 
@@ -600,7 +722,7 @@
 
                 <!--JS PROJECTS-->
 
-                <div class="title">
+                <div class="title" id="projects">
                     <span class="title__font white">JS Projects</span>
                 </div>
 
