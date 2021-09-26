@@ -243,6 +243,7 @@ body {
     max-width: 1920px;
     width: 100%;
     display: flex;
+    margin: 0 auto;
 }
 
 .container {
